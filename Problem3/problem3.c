@@ -67,6 +67,11 @@ int  main(int argc,char *argv[])
 		myreplace(fp,find,replace);
 	}
 	
+	else
+	{
+		printf("Please change executable name to mygrep or myreplace.\n");
+	}
+
 	//fclose(fp);
 	return 0;
 }
